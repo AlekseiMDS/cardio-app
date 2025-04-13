@@ -1,0 +1,32 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/*.csv
+!data/Final_check_data_cardio.csv
+!data/Final_check_labels_cardio.csv
+
+# Models
+models/*
+!models/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Environments
+.env
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Explicitly include project files
+!requirements.txt
+!Dockerfile
+!app.py

@@ -1,0 +1,72 @@
+Cardio
+|
+|__ backend
+|   |__ src
+|       |__ data_processing.py       # основной файл, который принимает в Strimlit данные пользователя и предсказывает по ним
+|       |__ utils.py                 # файл с дополнительными функциями
+|
+|__ data
+|   |__ data_cleaned
+|   |    |__ data_cleaned.csv
+|   |
+|   |__ final_check
+|   |    |__ final_check_data_cardio.csv
+|   |    |__ final_check_label_cardio.csv
+|   |    
+|   |__ processed_data
+|   |    |__ X_test_scale.npy
+|   |    |__ X_train_scale.npy
+|   |    |__ X_valid_scale.npy
+|   |    |__ y_test.npy
+|   |    |__ y_train.npy
+|   |    |__ y_valid.npy
+|   |
+|   |__ raw
+|       |__ cardio_train.csv
+|
+|__ models
+|   |__ LogistiRegression.joblib
+|   |__ model.joblib
+|   |__ RandomForest.joblib
+|   |__ CatBoost.joblib
+|   |__ LightGBM.joblib
+|
+|__ notebooks
+|   |__ 01 EDA_and_Data_Cleaning.ipynb
+|   |__ 02 Feature_vs_Target_Vizualization.ipynb
+|   |__ 03 Processing_data.ipynb
+|   |__ 04 Training_models_and_Feature_Importance_Analysis.ipynb
+|
+|__ outputs
+|
+|__ pipeline
+|   |__ preprocessing_pipeline.joblib
+|
+|__ venv
+|   |__ etc
+|   |    |__ jupyter
+|   |        |__ nbconfig
+|   |            |__notebook.d
+|   |                |__ catboost-widget.json
+|   |                |__ pydeck.json
+|   |
+|   |__ Include
+|   |
+|   |__ Lib
+|   |    |__ ... # здесь много файлов, коорые я не создавал
+|   |
+|   |__ Scriptions
+|   |   |__ ... # здесь много файлов, коорые я не создавал
+|   |
+|   |__ share
+|   |   |__ ... # здесь много файлов, коорые я не создавал
+|   |
+|   |__ pyvenv.cfg
+|
+|__ .gitignore
+|
+|__ app.py
+|
+|__ README.md
+|
+|__ requirements.txt
