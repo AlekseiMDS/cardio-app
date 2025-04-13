@@ -19,7 +19,7 @@ outputs/*
 !outputs/.gitkeep
 
 # Environments
-.env
+venv/
 .venv/
 
 # System
